@@ -1206,7 +1206,7 @@ on property:odm.audio.typec.status=*
     # Enable suspend to RAM
     write /sys/power/mem_sleep "deep"
 
-service charger /system/bin/charger
+service vendor.charger /system/bin/charger
     class charger
     user system
     group system graphics wakelock input
