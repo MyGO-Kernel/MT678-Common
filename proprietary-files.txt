@@ -249,6 +249,12 @@ vendor/lib64/libbluetoothem_mtk.so
 vendor/lib64/libbt-vendor.so
 vendor/lib64/vendor.mediatek.hardware.bluetooth.audio@2.1.so
 
+# Charger (Xiaomi)
+bin/kpoc_charger
+etc/init/kpoc_charger.rc
+lib/libshowlogo.so
+lib/libsysenv_system.so
+
 # Camera
 vendor/bin/lib3a.ccu.dm
 vendor/bin/lib3a.ccu.pm
